@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "latisse",
+    "slug": "latisse-ud35kg099pw8r-7tou7tf",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fabperre.latisseud35kg099pw8r7tou7tf"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.fabperre.latisseud35kg099pw8r7tou7tf"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9696c9dd-69ba-4a5e-85dd-636d99fdec3a"
+      }
+    },
+    "owner": "fabperre",
+    "updates": {
+      "url": "https://u.expo.dev/9696c9dd-69ba-4a5e-85dd-636d99fdec3a"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
